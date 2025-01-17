@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Attendanceit</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.jis.itism</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ism</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+       <string>This app requires access to the photo library.</string>
+
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app requires access to the microphone.</string>
+
+	<!-- If you use SMS functionalities, add this: -->
+	<key>NSSMSUsageDescription</key>
+	<string>This app requires access to send SMS for authentication purposes.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>This app requires access to the local network for connectivity features.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<!--If you use phone functionalities, you might include this: -->
+	<key>NSContactsUsageDescription</key>
+	<string>This app requires access to contacts for phone number purposes.</string>
+	<!--new calling function add on: -->
+	<key>NSContactsUsageDescription</key>
+	<string>We need access to your contacts for calling functionality.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We need access to your microphone for making calls.</string>
+
+   <key>NSCameraUsageDescription</key>
+     <string>This app requires access to the camera.</string>
+   <key>NSLocationAlwaysUsageDescription</key>
+      <string>Your location is required for  benefits for you</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+      <string>Your location is required for  benefits for you</string>
+
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+
+</dict>
+</plist>

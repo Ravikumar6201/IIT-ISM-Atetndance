@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "32383546014",
+    "project_id": "iit-ism-attendance-5ab7d",
+    "storage_bucket": "iit-ism-attendance-5ab7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32383546014:android:1fb5b0b0ad3db3819a418f",
+        "android_client_info": {
+          "package_name": "com.jis.ism"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHqfPp54HdSjOz1gMTJQ_DZI6Wkc58QYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
